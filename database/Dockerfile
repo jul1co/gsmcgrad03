@@ -4,4 +4,4 @@ FROM postgres:latest
 # Define variáveis de ambiente
 ENV POSTGRES_DB postgres
 ENV POSTGRES_USER postgres
-ENV POSTGRES_PASSWORD ginfragrad06
+ENV POSTGRES_PASSWORD postgres
