@@ -26,6 +26,15 @@ services:
     networks:
       - servers
 
+  broker:
+    build:
+      context: ./mqtt
+      dockerfile: Dockerfile
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    networks:
+      - servers
 
 volumes:
   postgres_data:
